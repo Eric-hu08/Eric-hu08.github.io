@@ -1,0 +1,160 @@
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+
+<head>
+
+  <title>Jiale Hu's Homepage</title>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="description" content="Jiale Hu is currently a senior researcher at Beijing Institute of Technology">
+  <meta name="keywords" content="Jiale Hu, Visualization, BIT, Computer ">
+  <meta name="author" content="Jiale Hu" />
+
+  <link rel="stylesheet" href="w3.css">
+
+  <style>
+  .w3-sidebar a {font-family: "Roboto", sans-serif}
+  body,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
+  </style>
+
+
+
+</head>
+
+
+<body class="w3-content" style="max-width:1000px">
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-bar-block w3-black w3-collapse w3-top w3-right" style="z-index:3;width:150px" id="mySidebar">
+  <div class="w3-container w3-display-container w3-padding-16">
+    <h3><b>JIALE</b></h3>
+  </div>
+  <div class="w3-padding-64 w3-text-light-grey w3-large" style="font-weight:bold">
+    <a href="#home" class="w3-bar-item w3-button">Home</a>
+    
+    <a href="#projects" class="w3-bar-item w3-button">Projects</a>
+    
+    <a href="#publications" class="w3-bar-item w3-button">Research</a>
+    
+    <a href="#award" class="w3-bar-item w3-button">Awards</a>
+  </div>
+</nav>
+
+<!-- Top menu on small screens -->
+<header class="w3-bar w3-top w3-hide-large w3-black w3-xlarge">
+  <div class="w3-bar-item w3-padding-24">JIALE</div>
+  <a href="javascript:void(0)" class="w3-bar-item w3-button w3-padding-24 w3-right"  style="font-stretch: extra-expanded;" onclick="w3_open()"><b>≡</b></a>
+  </div>
+</header>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:150px">
+
+  <!-- Push down content on small screens -->
+  <div class="w3-hide-large" style="margin-top:83px"></div>
+
+<!-- The Home Section -->
+    <div class="w3-container w3-center w3-padding-32" id="home">
+      <img style="width: 80%;max-width: 320px" alt="profile photo" src="images/Jiale_new.jpg">
+      <h1>Jiale Hu</h1>
+        <p class="w3-justify" style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;max-width:600px">
+          I am a senior student at Beijing Institute of Technology, where I work on data visualization and advised by Prof Guozheng Li. 
+        </p>
+        
+        </tbody></table>
+  </div>
+
+
+<!-- The Projects Section -->
+  <div class="w3-container w3-padding-32" id="projects">
+    <h2>Recent Projects</h2>
+   
+
+  </div>
+  
+
+ <!-- The Publications Section -->
+  <div class="w3-container w3-padding-32"" id="publications">
+    <h2>Research</h2>
+      <p class="w3-left-align" style="line-height:200%">
+        I'm interested in devleoping new <strong>Visualization Methods </strong> and <strong>Systems</strong> in event analysis area.
+      </p>
+    <h4> Conference Papers:</h4>
+
+
+  </div>
+
+
+
+  <!-- The Awards Section -->
+  <div class="w3-container w3-padding-32" id="award">
+    <h2>Awards</h2>
+    <p><li> 2021,Second prize of academic Merit Scholarship for Graduate Students, Beijing Institute of Technology</p>
+    <p><li> 2020, Second prize of academic Merit Scholarship for Graduate Students, Beijing Institute of Technology</p>
+    <p><li> 2019, First prize of academic Merit Scholarship for Graduate Students, Beijing Institute of Technology</p>
+  </div>  
+
+  <div class="w3-light-grey w3-center w3-padding-24">
+
+    Welcome to use this website's <a href="https://github.com/YunheWang/HomePage">source code</a>, just add a link back to here. <a href="https://www.wangyunhe.site/">&#10025;</a></br>
+
+  <!-- Default Statcounter code for Yunhe Wang's Homepage
+  https://www.wangyunhe.site -->
+  No.
+  <script type="text/javascript">
+  var sc_project=12347113; 
+  var sc_invisible=0; 
+  var sc_security="21aca5d1"; 
+  var sc_https=1; 
+  var scJsHost = "https://";
+  document.write("<sc"+"ript type='text/javascript' src='" + scJsHost+
+  "statcounter.com/counter/counter.js'></"+"script>");
+  </script> Visitor Since Feb 2022. Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-opacity">w3.css</a>
+  <noscript>
+    <div class="statcounter"><a title="Web Analytics Made Easy -
+  StatCounter" href="https://statcounter.com/" target="_blank"><img
+  class="statcounter" src="https://c.statcounter.com/12347113/0/21aca5d1/0/"
+  alt="Web Analytics Made Easy - StatCounter"></a></div>
+  </noscript>
+  <!-- End of Statcounter Code -->
+
+  </div>
+
+  <!-- End page content -->
+</div>
+
+<script>
+// Accordion 
+function myAccFunc() {
+  var x = document.getElementById("demoAcc");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else {
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+// Click on the "Jeans" link on page load to open the accordion for demo purposes
+document.getElementById("myBtn").click();
+
+
+// Open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+  document.getElementById("myOverlay").style.display = "block";
+}
+ 
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+  document.getElementById("myOverlay").style.display = "none";
+}
+</script>
+
+</body>
+</html>
